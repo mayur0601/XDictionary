@@ -37,10 +37,7 @@ export default function App() {
         />
         <button type="submit">Search</button>
       </form>
-      <p>
-        <b>Definition:</b>
-      </p>
-      <br />
+      <p className="def">Definition:</p>
       <p>{meaning}</p>
     </main>
   );
